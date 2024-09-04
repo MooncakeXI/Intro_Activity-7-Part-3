@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>ฝากซื้อด้วย</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 id="app-name">ฝากซื้อด้วย</h1>
+    </header>
+
+    <section>   
+        <h2 class="section-title">รายชื่อผู้มีสิทธิฝากซื้อ</h2>
+        <ul id="member-list">
+            <li>สุวิจักขณ์ ภู่ภักดีพันธ์</li>
+            <li>ญาดา โพนไสว</li>
+            <li>พัชรพล ศรีสุวรรณ์</li>
+            <li>พศิน เพชรฤาชัย</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2 class="section-title">รายการฝากซื้อ</h2>
+        <table id="itemlist-table" border="1">
+            <thead>
+                <tr>
+                    <th>ของที่ฝากซื้อ</th>
+                    <th>ชื่อผู้ฝากซื้อ</th>
+                    <th>ราคา (บาท)</th>
+                    <th>ดำเนินการ</th>
+                </tr>
+            </thead>
+            <tbody>
+              
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td><input type="text" id="itemname-input"></td>
+                    <td>
+                        <select id="name-to-add">
+                            
+                        </select>
+                    </td>
+                    <td><input type="number" id="price-to-add"></td>
+                    <td><button id="addbutton">เพิ่ม</button></td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
